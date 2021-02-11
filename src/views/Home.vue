@@ -2,6 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h4>test</h4>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ export default {
     HelloWorld,
   },
   created: async () => {
+    console.log("test");
     // const url = "http://localhost:8000/items/itemlist";
     // const res = await axios.get(url);
     // console.log(res.data);
